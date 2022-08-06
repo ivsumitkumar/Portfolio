@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion';
-import {HiChevronLeft, HiChevronRight} from 'react-icons/hi'
+import { HiChevronLeft, HiChevronRight } from 'react-icons/hi'
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -58,7 +58,7 @@ const Testimonial = () => {
       )}
 
       <div className='app__testimonial-brands app__flex'>
-        {brands.map((brand) => 
+        {brands.map((brand) =>
           <motion.div
             whileInView={{opacity:[0,1]}}
             transition = {{duration:0.5, type: 'tween'}}
