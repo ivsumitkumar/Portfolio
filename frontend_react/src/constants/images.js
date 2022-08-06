@@ -23,14 +23,13 @@ import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
 
-import profile from '../assets/profile.png';
+// import profile from '../assets/profile.png';
 import profile01 from '../assets/profile01.png';
-import profile04 from '../assets/profile04.png';
-import profile03 from '../assets/profile03.png';
+import profile02 from '../assets/profile02.png';
 import circle from '../assets/circle.svg';
-import logo01 from '../assets/logo01.png';
-// import logo02 from '../assets/logo02.png';
-// import logo03 from '../assets/logo03.png';
+import logo from '../assets/logo.png';
+import logo002_s from '../assets/logo002_s.png';
+// import logo002_s from '../assets/logo002_s.png';
 
 import adidas from '../assets/adidas.png';
 import amazon from '../assets/amazon.png';
@@ -64,14 +63,13 @@ export default {
   about02,
   about03,
   about04,
-  profile,
+  // profile,
   profile01,
-  profile03,
-  profile04,
+  profile02,
   circle,
-  logo01,
-  // logo02,
-  // logo03,
+  logo,
+  // logo001_s,
+  logo002_s,
   adidas,
   amazon,
   asus,
